@@ -2,9 +2,6 @@
     id: node3
 
 - tcp-peer:
-    address: localhost:12222
-
-- tcp-peer:
     address: localhost:11121
 
 - control-service:
@@ -19,9 +16,4 @@
 - work-command:
     workType: echo-uppercase
     command: bash
-    params: "-c \"read PAYLOAD; echo ${PAYLOAD^^}\""
-
-- work-command:
-    workType: echo-uppercase
-    command: ams
     params: "-c \"read PAYLOAD; echo ${PAYLOAD^^}\""
