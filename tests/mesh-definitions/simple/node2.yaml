@@ -9,3 +9,8 @@
 
 - control-service:
     filename: /tmp/receptorctltest/simple/node2.sock
+
+- work-command:
+    workType: base64-decode
+    command: base64
+    params: "-d"
